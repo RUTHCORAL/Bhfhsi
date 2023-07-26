@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>ACTIVITY 1</title>
+		<link rel="stylesheet" href="coral2.css">
+		<style>
+			h1,h2,h3{color:white;background-color:black}/*change in color and background color*/
+			h1{font-family:Tahoma;text-align:center;}
+		</style>
+	</head>
+
+	<body>
+	<h1 style="color:red;">Introduction to HTML</h1>
+		<table border ="3" cellpadding="5" cellspacing="4">
+			<tr>TABLES
+				<td>row 1 cell 1</td>
+				<td>row 1 cell 2</td>
+				<td>row 1 cell 3</td>
+			</tr>
+			<tr>
+				<td>row 2 cell 1</td>
+				<td>row 2 cell 2</td>
+				<td>row 2 cell 3</td>
+			</tr>
+			<tr>
+				<td>row 3 cell 1</td>
+				<td>row 3 cell 2</td>
+				<td>row 3 cell 3</td>
+			</tr>
+		</table>
+		<ul>UNORDERED LIST
+			<li>fruits1</li>
+			<li>fruits2</li>
+			<li>fruits3</li>
+		</ul>
+		<ol>ORDERED LIST
+			<li>fruitsA</li>
+			<li>fruitsB</li>
+			<li>fruitsC</li>
+		</ol>
+		<dl>
+			<dt>fruits1</dt>
+				<dd>sweet</dd>
+			<dt>fruits2</dd>
+				<dd>sour</dd>
+			<dt>fruits3</dt>
+				<dd>bitter</dd>
+		</dl>
+		<img src="computer.jpg">
+		<audio controls> 
+			<source src="Bruno Mars - Today My File Begins (Offcial Audio).mp3">
+		</audio>
+		<video controls> 
+			<source src= "heal the world.mp4">
+		</video>
+		<h3> video from youtube</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/_9KCpdAj_cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<h2>adding form</h2>
+			<form>
+				Type Firstname:<input type= "text"placeholder="Ruth"><br>
+				Type Lastname:<input type= "text"placeholder= "Coral"><br>
+				Gender: <br>
+				Gender: <input type = "radio">Male
+				<input type = "radio">Female
+				Date of Birth: <br>
+				<input type = "date"><br>
+				<input type = "submit" value="Register">
+				<input type = "Reset" value="Cancel">
+			</form>
+	</body>
+</html>
